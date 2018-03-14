@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var professor_1 = require("./professor");
+var aluno_1 = require("./aluno");
+var prof = new professor_1.Professor();
+prof.nome = "Daniel";
+prof.endereco = "Rua x";
+prof.area = "Informática;";
+prof.idade = 9;
+prof.telefone = "2222222";
+prof.email = "daniel@email";
+prof.getDados();
+console.log("----------");
+var al = new aluno_1.Aluno("Ana", "Rua x", "2321321", "daniel@email", 22, "2017.10");
+al.getDados();

@@ -1,0 +1,18 @@
+1. O que é Typescript
+
+2. Evolução Javascript ES5, ES6
+
+3. Transpiling ES6 -> ES5
+
+4. Instalando Typescript
+npm install -g typescript
+
+5. Criar o codigo1
+
+6. Compilar com o comando 
+	tsc codigo1
+
+7. Gera o arquivo codigo1.js, rodar programa com o comando
+	node codigo1
+
+[Plugins Typescript Toolbox, vscode-icons]

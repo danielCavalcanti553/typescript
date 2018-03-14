@@ -1,0 +1,8 @@
+1. Criar um arquivo chamado tsconfig.json ou executar 
+	tsc -init
+2. tsconfig
+	target -> qual versão a ser compilado
+	outDir -> Pasta onde ficarão os arquivos compilados, 
+				necessário o comando "tsc -w" para assistir as mundaças e gerar os arquivos
+
+	Abrir os dois arquivos e verificar a transpilação
